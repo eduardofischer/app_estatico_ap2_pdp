@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     console.debug('effect')
-    axios.get(process.env.API_URL || 'http://localhost:8000/api/grupo')
+    axios.get('https://cors-everywhere-me.herokuapp.com/http://3.216.15.43:8000/api/grupo')
       .then(res => {
         console.debug(res)
         if (res?.data?.nomes)

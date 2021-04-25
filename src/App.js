@@ -21,8 +21,8 @@ function App() {
         console.error(e)
       }, {
         headers: {
-          'origin': 'foobar',
-          'x-requested-with': 'barfoo'
+          'origin': 'localhost',
+          'x-requested-with': 'xml-http-request'
         }
       })
   }, [])

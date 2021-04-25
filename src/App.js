@@ -21,8 +21,8 @@ function App() {
         console.error(e)
       }, {
         headers: {
-          'origin': 'http://localhost',
-          'x-requested-with': 'XMLHttpRequest'
+          'origin': 'localhost',
+          'x-requested-with': 'XML-http-request'
         }
       })
   }, [])
